@@ -1,10 +1,4 @@
-<!-- ============================================================ -->
-<!-- README de profil GitHub                                       -->
-<!-- IMPORTANT : remplace partout TON_USERNAME par ton vrai pseudo -->
-<!-- GitHub, ainsi que les liens (email, portfolio, linkedin...).  -->
-<!-- Ce fichier doit vivre dans un repo PUBLIC nommé exactement    -->
-<!-- comme ton username pour s'afficher sur ton profil.            -->
-<!-- ============================================================ -->
+
 
 # Hi there, I'm Mehdi 👋
 
@@ -20,7 +14,7 @@
 - 🔧 Passionné par l'**IoT**, les **systèmes embarqués** et la **cybersécurité**
 - 🌱 J'explore en ce moment les **ESP32 / STM32**, **Home Assistant** et **Zephyr RTOS**
 - 🏴 Je participe à des **CTF** en présentiel
-- 📫 Pour me contacter : **ton.email@exemple.com**
+- 📫 Pour me contacter : **mastr00@proton.me**
 
 ---
 
