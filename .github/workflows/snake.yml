@@ -1,0 +1,55 @@
+# ============================================================
+#  Génère l'animation "snake" qui dévore le graphe de contributions.
+#
+#  EMPLACEMENT (obligatoire) :
+#    .github/workflows/snake.yml
+#    ...dans ton repo PUBLIC nommé comme ton pseudo GitHub.
+#
+#  RÉSULTAT :
+#    Les SVG sont poussés sur une branche "output" et référencés
+#    dans le README via raw.githubusercontent.com (déjà fait).
+#
+#  PREMIÈRE EXÉCUTION :
+#    Onglet "Actions" du repo → ce workflow → "Run workflow".
+#    Ensuite il tourne tout seul toutes les 12 h.
+# ============================================================
+
+name: Generate Snake Animation
+
+on:
+  # Mise à jour automatique deux fois par jour
+  schedule:
+    - cron: "0 */12 * * *"
+  # Déclenchement manuel depuis l'onglet Actions
+  workflow_dispatch:
+  # Régénère aussi à chaque push sur la branche principale
+  push:
+    branches:
+      - main
+
+# Droits nécessaires pour écrire sur la branche "output"
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Génération des SVG (clair + sombre)
+        uses: Platane/snk@v3
+        with:
+          # Le générateur lit les contributions de cet utilisateur
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+
+      - name: Publication sur la branche "output"
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
