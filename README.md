@@ -1,4 +1,4 @@
-<!-- ============================================================ -->
+**<!-- ============================================================ -->
 <!--  README de profil GitHub — version PRO (privacy-safe)        -->
 <!--                                                              -->
 <!--  À PERSONNALISER :                                           -->
@@ -164,3 +164,4 @@ Pilotage de Fusion 360 par langage naturel via le Model Context Protocol, pour g
 <a href="mailto:ton.email@exemple.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="email" /></a>
 
 </div>
+**
