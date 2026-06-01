@@ -5,10 +5,6 @@
 <!--   - TON_LINKEDIN  -> ton identifiant LinkedIn                -->
 <!--   - le mailto:    -> ton email (optionnel)                   -->
 <!--   - le portfolio  -> ton URL                                 -->
-<!--                                                              -->
-<!--  STATS : voir le commentaire "INSTANCE" plus bas. Une fois   -->
-<!--  ton instance Vercel déployée, remplace github-readme-stats  -->
-<!--  .vercel.app par ton-instance.vercel.app dans les 2 URLs.    -->
 <!-- ============================================================ -->
 
 <!-- ====================== HEADER ANIMÉ ======================== -->
@@ -33,6 +29,7 @@
 ```yaml
 role:         "Étudiant en informatique — Embedded & IoT"
 domaine:      ["Systèmes embarqués", "IoT", "Cybersécurité"]
+en_ce_moment: "Firmware ESP32-C6 · domotique self-hosted"
 j_apprends:   ["STM32", "Sécurité offensive"]
 me_contacter: "voir les liens en bas de page"
 ```
@@ -146,18 +143,7 @@ Mon portfolio personnel.
 </table>
 
 <!-- ======================== STATS ============================= -->
-<!-- INSTANCE : remplace "github-readme-stats.vercel.app" par ta  -->
-<!-- propre instance Vercel pour éviter les images cassées.       -->
 ## 📊 Activité
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Mastr00&show_icons=true&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&count_private=true" alt="stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mastr00&layout=compact&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF&langs_count=8" alt="top langs" />
-
-</div>
-
-<br/>
 
 <!-- ===== Animation snake : générée par le workflow snake.yml ==== -->
 <picture>
