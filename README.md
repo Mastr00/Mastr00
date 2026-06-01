@@ -1,4 +1,4 @@
-**<!-- ============================================================ -->
+<!-- ============================================================ -->
 <!--  README de profil GitHub — version PRO (privacy-safe)        -->
 <!--                                                              -->
 <!--  À PERSONNALISER :                                           -->
@@ -14,7 +14,7 @@
 <!-- ====================== HEADER ANIMÉ ======================== -->
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=3500&pause=800&color=58A6FF&center=true&vCenter=true&width=720&lines=Embedded+%26+IoT+Engineer;ESP32+%E2%80%A2+STM32+%E2%80%A2+Zephyr+RTOS;MQTT+%E2%80%A2+Home+Automation+%E2%80%A2+Self-hosted;Cybersecurity+enthusiast+%E2%80%A2+CTF+player" alt="typing header" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=28&duration=3500&pause=800&color=58A6FF&center=true&vCenter=true&width=720&lines=Embedded+%26+IoT+Engineer;ESP32+%E2%80%A2+STM32+%E2%80%A2+IoT;MQTT+%E2%80%A2+Home+Automation+%E2%80%A2+Self-hosted;Cybersecurity+enthusiast+%E2%80%A2+CTF+player" alt="typing header" />
 
 <br/>
 
@@ -34,7 +34,7 @@
 role:         "Étudiant en informatique — Embedded & IoT"
 domaine:      ["Systèmes embarqués", "IoT", "Cybersécurité"]
 en_ce_moment: "Firmware ESP32-C6 · domotique self-hosted"
-j_apprends:   ["Zephyr RTOS", "STM32", "Sécurité offensive"]
+j_apprends:   ["STM32", "Sécurité offensive"]
 me_contacter: "voir les liens en bas de page"
 ```
 
@@ -54,7 +54,6 @@ me_contacter: "voir les liens en bas de page"
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white)
 ![STM32](https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white)
 ![PlatformIO](https://img.shields.io/badge/PlatformIO-FF7F00?style=flat-square&logo=platformio&logoColor=white)
-![Zephyr](https://img.shields.io/badge/Zephyr-7929D2?style=flat-square&logo=zephyrproject&logoColor=white)
 
 </td>
 <td valign="top" width="50%">
@@ -93,43 +92,59 @@ me_contacter: "voir les liens en bas de page"
 
 <br/>
 
-<!-- ====================== PROJETS PHARES ====================== -->
-<!-- Vitrine : ces projets décrivent des compétences, sans lien   -->
-<!-- vers du code privé et sans détail d'infra personnelle.       -->
 ## 🛰️ Projets phares
 
-<details open>
-<summary><b>🎙️ Assistant vocal — ESP32-C6</b></summary>
-<br/>
+<!-- Vrais repos. Descriptions à ajuster si besoin (déduites du nom). -->
+<table>
+<tr>
+<td valign="top" width="50%">
 
-Boucle vocale embarquée : capture audio I²S → reconnaissance vocale → génération de réponse → synthèse vocale, avec lecture audio streamée en TCP. Réveil de l'écoute par détection de présence radar.
+### 🚨 [Fall_guard](https://github.com/Mastr00/Fall_guard)
+Détecteur de chute — projet d'électronique & communication sans fil.
+`C++`
 
-> **Hardware** · ESP32-C6 · micro I²S INMP441 · ampli MAX98357A · radar mmWave HLK-LD2410C
-> **Compétences** · I²S, traitement audio temps réel, pipeline STT/TTS, réseau TCP
+</td>
+<td valign="top" width="50%">
 
-</details>
+### 📡 [lidar_radar](https://github.com/Mastr00/lidar_radar)
+Détection de distance / présence par lidar & radar.
+`C++`
 
-<details>
-<summary><b>🏠 Domotique & services self-hosted</b></summary>
-<br/>
+</td>
+</tr>
+<tr>
+<td valign="top">
 
-Conception d'un écosystème domotique conteneurisé, intégrant capteurs et automatisations via messagerie MQTT, avec accès distant chiffré.
+### 🛰️ [trail_GPS](https://github.com/Mastr00/trail_GPS)
+Suivi de parcours / tracé par GPS.
+`C++`
 
-> **Compétences** · Docker, MQTT, intégration capteurs, réseau privé / VPN, durcissement
+</td>
+<td valign="top">
 
-</details>
+### 📷 [IA-Cam](https://github.com/Mastr00/IA-Cam)
+Caméra embarquée avec traitement d'image.
+`C`
 
-<details>
-<summary><b>🔧 Intégration Fusion 360 ↔ LLM (MCP)</b></summary>
-<br/>
+</td>
+</tr>
+<tr>
+<td valign="top">
 
-Pilotage de Fusion 360 par langage naturel via le Model Context Protocol, pour générer et modifier des pièces 3D destinées à des montages électroniques.
+### 🌦️ [wether](https://github.com/Mastr00/wether)
+Station / application météo.
+`C++`
 
-> **Compétences** · MCP, CAO paramétrique, automatisation d'outils
+</td>
+<td valign="top">
 
-</details>
+### 🌐 [mon-site-perso](https://github.com/Mastr00/mon-site-perso)
+Mon portfolio personnel.
+`TypeScript`
 
-<br/>
+</td>
+</tr>
+</table>
 
 <!-- ======================== STATS ============================= -->
 <!-- INSTANCE : remplace "github-readme-stats.vercel.app" par ta  -->
@@ -164,4 +179,3 @@ Pilotage de Fusion 360 par langage naturel via le Model Context Protocol, pour g
 <a href="mailto:ton.email@exemple.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="email" /></a>
 
 </div>
-**
