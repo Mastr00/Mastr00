@@ -27,7 +27,7 @@
 ## 🧭 About
 
 ```yaml
-role:         "Étudiant en informatique — Embedded & IoT"
+role:         "Étudiant en informatique - Embedded & IoT"
 domaine:      ["Systèmes embarqués", "IoT", "Cybersécurité"]
 en_ce_moment: "Firmware ESP32-C6 · domotique self-hosted"
 j_apprends:   ["STM32", "Sécurité offensive"]
